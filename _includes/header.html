@@ -4,9 +4,20 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Index</title>
+    <title>{{page.title}} | Thiago Thomaz</title>
 
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    {% if page.tags %}<meta name="keywords" content="{{ page.tags }}">{% endif %}
+
+    
+    <!-- Open Graph -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:site_name" content="{{ site.title }}">
+    
     <!-- Bootstrap -->
     <link href="/extras/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -44,10 +55,10 @@
         
       <ul class="dropdown-menu ng-scope" aria-labelledby="dropdownMenu1">
 
-        <li><a {% if page.url == '/' %}class="active" {% endif %}href="/">About</a></li>
-        <li><a {% if page.url == '/projects/' %}class="active" {% endif %}href="/projects/">Projects</a></li>
-        <li><a {% if page.url == '/blog/' %}class="active" {% endif %}href="/blog/">Blog</a></li>
-        <li><a {% if page.url == '/skills/' %}class="active" {% endif %}href="/skills/">Skills</a></li>
+        <li><a {% if page.url == '/' %}class="active" {% endif %}href="{{ site.url }}/">About</a></li>
+        <li><a {% if page.url == '/projects/' %}class="active" {% endif %}href="{{ site.url }}/projects/">Projects</a></li>
+        <li><a {% if page.url == '/blog/' %}class="active" {% endif %}href="{{ site.url }}/blog/">Blog</a></li>
+        <li><a {% if page.url == '/skills/' %}class="active" {% endif %}href="{{ site.url }}/skills/">Skills</a></li>
         
         
       </ul>

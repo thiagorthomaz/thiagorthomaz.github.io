@@ -1,31 +1,22 @@
 ---
 layout: default
+title: Home page
+description: "Personal Thiago Rinaldin Thomaz's web site."
+tags: site, blog, developer
 ---
 
 <div id="main" class="container-fluid">
 
   <div class="row">
 
-    <div class="col-md-3">
-
-    </div>
-
-    <div class="col-md-12">
+    <div class="col-md-12 text-center">
       <h1>Wait for details...</h1>
       <h3>... and while you are waiting, read some post.</h3>
 
-      <ul>  
-        <li><b>Posts:</b></li>
-
-        {% for post in site.posts %}
-          <li>
-            <a href="{{ post.url }}">{{ post.title }}</a>
-          </li>
-        {% endfor %}
-      </ul>
-
     </div>
-
+    <div class="col-md-12">
+      {% include post_list.html %}      
+    </div>
 
   </div>
 
