@@ -1,0 +1,18 @@
+title:            thiagothomaz.com.br
+description:      Thiago Thomaz's Blog
+
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+#Configuring Permalinks
+#permalink:     '/blog/:year/:title/'
+permalink:   /blog/:title
+#paginate_path: '/blog/page:num/'
+
+#Adding pages directory
+include: ['_pages']
+relative_permalinks: false
+
+#https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    America/Sao_Paulo
