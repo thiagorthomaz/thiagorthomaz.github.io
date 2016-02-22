@@ -19,7 +19,7 @@ When I started the STPHP my main object was use my own Framework into the core o
 Nowaday, I'm using this framework to lean about new code styles, to teste new web technologies, resources and just for fun =).
 
 
-## TLoS
+## [TLoS](https://github.com/thiagorthomaz/tlos)
 I’m trying to make a strategy web based game called The lord of Shadows. My idea is make something as The Lord of Ultima. 
 So in the game you will have thousands of cities to administrate. In each city you can choose where you will put each building 
 and based at the place chosen you will win more points. Ex: If you have a Woodcutter will be better put it close a 
