@@ -5,6 +5,8 @@ url: http://thiagorthomaz.github.io/
 
 # Dependencies
 markdown:         kramdown
+kramdown:
+  input: GFM
 highlighter:      rouge
 
 #Configuring Permalinks
