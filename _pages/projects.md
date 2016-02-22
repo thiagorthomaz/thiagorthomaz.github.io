@@ -4,13 +4,15 @@ layout: projects
 title: Projects
 description: "Those are some projects made by me, or I've contributed of someway"
 tags: projects
+published: true
 ---
+
 
 #My projects
 ------------------
 Here's a list of my personal project.
+## [STPHP](https://github.com/thiagorthomaz/stphp "STPHP")
 
-##[STPHP](https://github.com/thiagorthomaz/stphp)
 When I started the STPHP my main object was use my own Framework into the core of my lato sensu final project in Software Engineering.
 Nowaday, I'm using this framework to lean about new code styles, to teste new web technologies, resources and just for fun =).
 
@@ -48,4 +50,3 @@ and the result is:
 {% endhighlight %}
 
 Very cool, right? Forget HTML, write just PHP!.
-
