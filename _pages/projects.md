@@ -9,20 +9,21 @@ published: true
 
 
 
+
 # My projects
 ------------------
 
 Here's a list of my personal project.
 
 ## [STPHP](https://github.com/thiagorthomaz/stphp)
-When I started the STPHP my main object was use my own Framework into the core of my lato sensu final project in Software Engineering.
-Nowaday, I'm using this framework to lean about new code styles, to teste new web technologies, resources and just for fun =).
+When I started the STPHP my main objective was use my own framework into the core of my lato sensu final project in Software Engineering.
+Nowaday, I'm using this framework to lean about new code styles, to improve my abilities, to teste new web technologies and because is very funny =).
 
 
 ## [TLoS](https://github.com/thiagorthomaz/tlos)
-I’m trying to make a strategy web based game called The lord of Shadows. My idea is make something as The Lord of Ultima. 
+I’m trying make a strategy web based game called The lord of Shadows. My idea is make something as The Lord of Ultima. 
 So in the game you will have thousands of cities to administrate. In each city you can choose where you will put each building 
-and based at the place chosen you will win more points. Ex: If you have a Woodcutter will be better put it close a 
+and based at the place chosen you will gain more points. Ex: If you have a Woodcutter will be better put it close a 
 tree to get more points, because if you put close a quarry or in a random place you will get less points. To make the 
 players interact with each other my idea is create a ‘card game’, and the players will fight to get the ‘Card of the shadows’,
 each card will give some bonus to the players. Ex: There are cards for give more speed for building,
