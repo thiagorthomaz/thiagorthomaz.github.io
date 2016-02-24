@@ -6,7 +6,7 @@ description: "Read a little about my jorney in software development. What I like
 ---
 
 # Personal
-I live in Curitiba/PR Brazil. I went to Universidade Positivo from 2011-3 where I got an associate degree in Technology analysis and System development and soon after I got a Post-graduated (lato-sensu) in Software Engineering from 2014-2.
+I live in Curitiba/PR Brazil. I went to Universidade Positivo from 2011-3 where I got an associate degree in Technology analysis and System development and soon after I got a Post-graduate (lato-sensu) in Software Engineering from 2014-2.
 Currently, I work at FAEP developing new PHP's systems and sometimes I fix some bugs in old systems developed in Delphi 7.
 Well, I enjoy my free time playing violin and video game. I enjoy some hours playing when I need get some rest or relax after a tired day. On my vacation I really like go abroad with my girlfriend to know new places, cultures, try differents foods and I dream in know all the world one day.
 
