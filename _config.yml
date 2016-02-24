@@ -4,7 +4,7 @@ description:      Thiago Thomaz's Blog
 url: http://thiagorthomaz.github.io/
 
 # Dependencies
-markdown:         kramdown
+markdown: kramdown
 kramdown:
   input: GFM
 highlighter:      rouge
