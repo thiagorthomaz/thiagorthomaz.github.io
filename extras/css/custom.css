@@ -16,11 +16,16 @@ body {
     margin-bottom: 3em;
 }
 
+.navbar-header a {
+  text-decoration: none;
+}
+
 .navbar.navbar-fixed-top h1 {
     font-size: 3em;
     font-family: 'Abel', sans-serif !important;
     text-transform: none;
 }
+
 .navbar-fixed-top .dropdown {
     margin-right: 15px;
     font-size: 3em;
@@ -54,11 +59,11 @@ h4 {
 
 h1 {
     color: #3a3a3a;
-    font-size: 3em;
+    font-size: 2em;
 }
 h2 {
     color: #888888;
-    font-size: 2em;
+    font-size: 1.8em;
 }
 
 p {

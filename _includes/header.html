@@ -40,11 +40,13 @@
     <div class="container-fluid">
       
       <div class="navbar-header">
+          <a {% if page.url == '/' %}class="active" {% endif %}href="{{ site.url }}/">
           <h1>
               Thiago Thomaz
               <br>
               <small class="small">Developer &amp; Software Engineer</small>
           </h1>
+          </a>
       </div>
       
       <div class="nav navbar-nav navbar-right">
@@ -55,7 +57,7 @@
         
       <ul class="dropdown-menu ng-scope" aria-labelledby="dropdownMenu1">
 
-        <li><a {% if page.url == '/' %}class="active" {% endif %}href="{{ site.url }}/">About</a></li>
+        <li><a {% if page.url == '/' %}class="active" {% endif %}href="{{ site.url }}/about">About</a></li>
         <li><a {% if page.url == '/projects/' %}class="active" {% endif %}href="{{ site.url }}/projects/">Projects</a></li>
         <li><a {% if page.url == '/blog/' %}class="active" {% endif %}href="{{ site.url }}/blog/">Blog</a></li>
         <li><a {% if page.url == '/skills/' %}class="active" {% endif %}href="{{ site.url }}/skills/">Skills</a></li>
